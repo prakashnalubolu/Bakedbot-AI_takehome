@@ -1,6 +1,7 @@
 # BakedBot AI - Take Home Exam
 <img width="1359" height="231" alt="image" src="https://github.com/user-attachments/assets/0e13512f-b8e0-4bfa-8034-d4cd01e2c5bb" />
 <img width="1338" height="407" alt="image" src="https://github.com/user-attachments/assets/4c7bba0e-0615-4192-812f-9f87ba72fc94" />
+
 ## What this does
 - Loads the provided CSV of cannabis strains.
 - Indexes `dominant_terpenes + flavor_notes + effects` using BM25.
@@ -17,7 +18,7 @@
   
 ## How I ranked results
 - Scored all strains with the provided BM25 (k1=1.5, b=0.75) using the tokens above.
-Applied a gentle review boost:
+  Applied a gentle review boost:
 - score_norm = max(0, (avg_review_score-3)/2) and count_norm = log1p(review_count)/log1p(max_review_count)
 - final = BM25 * (1 + 0.25*score_norm) * (1 + 0.25*count_norm)
 Sorted by final, returned top 3, and generated a short recommendation for each.
