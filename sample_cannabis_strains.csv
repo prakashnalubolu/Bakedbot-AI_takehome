@@ -1,0 +1,7 @@
+strain_id,strain_name,type,thc_pct,cbd_pct,dominant_terpenes,flavor_notes,effects,avg_review_score,review_count
+1,Blue Dream,Hybrid,18,0.1,"Myrcene, Pinene","Berry, Earthy","Uplifted, Relaxed, Creative",4.5,1200
+2,Sour Diesel,Sativa,22,0.05,"Limonene, Caryophyllene","Diesel, Citrus","Energetic, Creative, Uplifted",4.4,950
+3,Granddaddy Purple,Indica,20,0.1,"Myrcene, Caryophyllene","Grape, Berry","Relaxed, Sleepy, Happy",4.6,870
+4,Harlequin,Sativa,5,7.0,"Myrcene, Pinene, Caryophyllene","Earthy, Woody","Focused, Relaxed, Uplifted",4.3,640
+5,Gelato,Hybrid,20,0.1,"Caryophyllene, Limonene, Humulene","Sweet, Citrus","Relaxed, Happy, Uplifted",4.7,1500
+6,ACDC,Hybrid,1,20.0,"Myrcene, Pinene, Bisabolol","Woody, Earthy","Relaxed, Focused, Uplifted",4.2,520
