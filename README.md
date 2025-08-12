@@ -1,4 +1,4 @@
-# BakedBot AI — Take Home Exam
+# BakedBot AI - Take Home Exam
 <img width="1359" height="231" alt="image" src="https://github.com/user-attachments/assets/0e13512f-b8e0-4bfa-8034-d4cd01e2c5bb" />
 <img width="1338" height="407" alt="image" src="https://github.com/user-attachments/assets/4c7bba0e-0615-4192-812f-9f87ba72fc94" />
 ## What this does
@@ -7,7 +7,7 @@
 - Takes a free-text query, retrieves the **top 3** strains, and generates a brief recommendation.
 - Ranks using `final_score = BM25 * (1 + α*score_norm) * (1 + β*count_norm)` where:
   - `score_norm = max(0, (avg_review_score-3)/2)` maps 3.0 → 0.0 and 5.0 → 1.0
-  - `count_norm = log1p(review_count) / log1p(max_review_count)` scales volume 0..1
+  - `count_norm = log1p(review_count) / log1p(max_review_count)` scales volume 0...1
   - α and β default to 0.25 (gentle, interpretable boost).
 
 ## Tokenization
