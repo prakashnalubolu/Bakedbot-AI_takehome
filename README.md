@@ -1,7 +1,6 @@
 # BakedBot AI — Take Home Exam
-<img width="1365" height="212" alt="image" src="https://github.com/user-attachments/assets/edcea9a8-81b7-4953-b4ef-0a577ed55c0c" />
-<img width="1397" height="411" alt="image" src="https://github.com/user-attachments/assets/e35c62c8-6ba0-4859-9da0-08fb188a92a9" />
-
+<img width="1359" height="231" alt="image" src="https://github.com/user-attachments/assets/0e13512f-b8e0-4bfa-8034-d4cd01e2c5bb" />
+<img width="1338" height="407" alt="image" src="https://github.com/user-attachments/assets/4c7bba0e-0615-4192-812f-9f87ba72fc94" />
 ## What this does
 - Loads the provided CSV of cannabis strains.
 - Indexes `dominant_terpenes + flavor_notes + effects` using BM25.
